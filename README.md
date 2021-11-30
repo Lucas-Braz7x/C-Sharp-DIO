@@ -1,7 +1,2 @@
-# Projeto-JS-Hiring-coders
-Projeto final do módulo de JavaScript do Hiring Coders
-
-# Objetivo
-  - Treinar lógica de programação
-  - Aumentar familiaridade com o JS
-  - Desenvolver uma aplicação simples com ES6
+# Projeto de C#
+Projeto de C# desenvolvido no bootcamp da DIO
