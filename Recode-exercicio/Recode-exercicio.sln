@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recode-exercicio", "Recode-exercicio\Recode-exercicio.csproj", "{9183D9FE-009D-4010-9F66-CE6850FD2A8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9183D9FE-009D-4010-9F66-CE6850FD2A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9183D9FE-009D-4010-9F66-CE6850FD2A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9183D9FE-009D-4010-9F66-CE6850FD2A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9183D9FE-009D-4010-9F66-CE6850FD2A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {254A7004-C190-4FFA-A48B-630D3D5FEA55}
+	EndGlobalSection
+EndGlobal

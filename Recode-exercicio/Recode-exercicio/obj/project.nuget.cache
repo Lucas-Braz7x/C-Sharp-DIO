@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LzoE3/uYzSGiaKJyHLy5fwPLtjEIxGyyxPpSF4dTyHb3HEgfK4mYCz9MhA6HuwkGua9UBWqwnnDcWIZnUAK2ow==",
+  "success": true,
+  "projectFilePath": "D:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\Recode-exercicio\\Recode-exercicio\\Recode-exercicio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Desktop\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
