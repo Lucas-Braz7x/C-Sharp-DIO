@@ -6,6 +6,10 @@ namespace app_web.Models
   {
     /*Criando uma tabela Categorias*/
     public DbSet<Categoria> Categorias { get; set; }
+
+    /*Criando uma tabela Produtos*/
+    public DbSet<Produto> Produtos { get; set; }
+
     /*Dentro deste método que eu informo o BD que vou utilizar*/
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

@@ -15624,6 +15624,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Categoria\\Create.cshtml",
+      "TargetPath": "Views\\Categoria\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Produto\\Edit.cshtml",
+      "TargetPath": "Views\\Produto\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15639,6 +15649,36 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Produto\\Index.cshtml",
+      "TargetPath": "Views\\Produto\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Categoria\\Details.cshtml",
+      "TargetPath": "Views\\Categoria\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Categoria\\Edit.cshtml",
+      "TargetPath": "Views\\Categoria\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Categoria\\Index.cshtml",
+      "TargetPath": "Views\\Categoria\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Categoria\\Delete.cshtml",
+      "TargetPath": "Views\\Categoria\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Produto\\Details.cshtml",
+      "TargetPath": "Views\\Produto\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -15651,6 +15691,16 @@
     {
       "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Produto\\Delete.cshtml",
+      "TargetPath": "Views\\Produto\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\Views\\Produto\\Create.cshtml",
+      "TargetPath": "Views\\Produto\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

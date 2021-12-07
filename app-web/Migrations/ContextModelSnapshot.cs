@@ -32,6 +32,45 @@ namespace app_web.Migrations
 
                     b.ToTable("Categorias");
                 });
+
+            modelBuilder.Entity("app_web.Models.Produto", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("categoriaId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("descricao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("quantidade")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("categoriaId");
+
+                    b.ToTable("Produtos");
+                });
+
+            modelBuilder.Entity("app_web.Models.Produto", b =>
+                {
+                    b.HasOne("app_web.Models.Categoria", "categoria")
+                        .WithMany("produtos")
+                        .HasForeignKey("categoriaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("categoria");
+                });
+
+            modelBuilder.Entity("app_web.Models.Categoria", b =>
+                {
+                    b.Navigation("produtos");
+                });
 #pragma warning restore 612, 618
         }
     }
