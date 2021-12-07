@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6d3f1673-650a-4f7a-b103-403ca1ead8e2": {
+      "ProjectGuid": "6d3f1673-650a-4f7a-b103-403ca1ead8e2",
+      "DisplayName": "ApiWeb",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
