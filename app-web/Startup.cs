@@ -20,7 +20,7 @@ namespace app_web
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddControllersWithViews();
-      services.AddDbContext<Context>();
+      services.AddDbContext<Context>();//Deixa o DBContext visível para a app
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
