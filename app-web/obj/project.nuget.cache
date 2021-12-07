@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PMKNnfpr+AnqYqH3X9NMTVOKy84daZYNZcCQ8UBU0CooZhq91xkDOUla0Q4/+mzZVHV1dmR0U0Hpa9nlWOFBsg==",
+  "dgSpecHash": "f3UV/IJnaMcxRfumkF3ZYvw9UoRZGdhOSIlh+AQWpeLGsDqiqkN9zgNTHNUBMKAHGMcb+ZA5hqUXfM8GQyByow==",
   "success": true,
-  "projectFilePath": "D:\\web\\Aulas\\C-sharp\\app-web\\app-web.csproj",
+  "projectFilePath": "D:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\app-web\\app-web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Desktop\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Desktop\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

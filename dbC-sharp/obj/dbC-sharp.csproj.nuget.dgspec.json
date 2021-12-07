@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\web\\Aulas\\C-sharp\\dbC-sharp\\dbC-sharp.csproj": {}
+    "D:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\dbC-sharp\\dbC-sharp.csproj": {}
   },
   "projects": {
-    "D:\\web\\Aulas\\C-sharp\\dbC-sharp\\dbC-sharp.csproj": {
+    "D:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\dbC-sharp\\dbC-sharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web\\Aulas\\C-sharp\\dbC-sharp\\dbC-sharp.csproj",
+        "projectUniqueName": "D:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\dbC-sharp\\dbC-sharp.csproj",
         "projectName": "dbC-sharp",
-        "projectPath": "D:\\web\\Aulas\\C-sharp\\dbC-sharp\\dbC-sharp.csproj",
+        "projectPath": "D:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\dbC-sharp\\dbC-sharp.csproj",
         "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
-        "outputPath": "D:\\web\\Aulas\\C-sharp\\dbC-sharp\\obj\\",
+        "outputPath": "D:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\dbC-sharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

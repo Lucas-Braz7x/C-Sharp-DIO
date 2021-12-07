@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0P59mtYiQ47mxs2gwCtfHVl97z0qHrdsbSpu69mL8JP96d7fGa6+OBmaca6zltQJgXIiUgdnedbSEQHEROQ2Zg==",
+  "dgSpecHash": "zJVsvo9YD3RtuO8KcZIP5fef1n1quTmASH3Lvs3cPyrc7QnkBT6v/rTSJ0wdQoK+xDYx0VakPGmG0ppCROW28g==",
   "success": true,
-  "projectFilePath": "D:\\web\\Aulas\\C-sharp\\dbC-sharp\\dbC-sharp.csproj",
+  "projectFilePath": "D:\\web\\Aulas\\C-sharp\\C-Sharp-DIO\\dbC-sharp\\dbC-sharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Desktop\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Desktop\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
