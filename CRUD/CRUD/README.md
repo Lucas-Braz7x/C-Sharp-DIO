@@ -24,13 +24,13 @@
   -> Ele serve para fazer as integrações com o Banco de dados (A grosso modo)
 
   - `dotnet tool install --global dotnet-ef`
-  - `dotnet add package Microsoft.EntityFrameworkCore.Design`
-  - `dotnet add package Microsoft.EntityFrameworkCore.Tools`
+  - `dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0`
+  - `dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0`
 
   ## Provedor do Banco de dados:
   -> Especifica qual Banco vamos utilizar
 
-  - `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
+  - `dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0`
   
   ## Migrations:
   -> Basicamente ele transforma uma classe em uma tabela no banco de dados, também é usado para fazer atualizações e migrações de banco de dados.
