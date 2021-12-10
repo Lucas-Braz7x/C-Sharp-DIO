@@ -1,6 +1,7 @@
 # Sobre:
   - Um exemplo de CRUD
   - SDK usado .net 5.0
+  - OBS:  Na hora de criar o projeto no VS, não se esqueça de marcar a opção "Adicionar solução no mesmo diretório" (Provavelmente não está com as mesmas palavras kkk...)
 
 # Roteiro:
   <ol>
