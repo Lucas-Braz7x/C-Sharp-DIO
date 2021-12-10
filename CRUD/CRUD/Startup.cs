@@ -11,6 +11,7 @@ using CRUD.Models;
 
 namespace CRUD
 {
+  //Esta Classe seta as configurações iniciais do projeto 
   public class Startup
   {
     public Startup(IConfiguration configuration)

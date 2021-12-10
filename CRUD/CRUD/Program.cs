@@ -20,7 +20,7 @@ namespace CRUD
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>();//Chama as configurações do Startup.cs
                 });
     }
 }
