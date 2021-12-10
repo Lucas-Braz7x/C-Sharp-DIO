@@ -5,15 +5,15 @@
 # Roteiro:
   <ol>
     <li>Criar projeto no Visual Studio (Foi o jeito que eu encontrei de conseguir rodar a aplicação em ambas as IDES, se souber de outro manda pra "Nois")</li>
-    <li>Criar o contexto de banco de dados (Que se encontra no arquivo [Context.cs](Models/Context.cs))</li>
+    <li>Criar o contexto de banco de dados (Que se encontra no arquivo <a href="./Models/Context.cs">Context.cs</a>)</li>
     <li>Adicionar o contexto do banco na classe "Startup.cs":
       <img src="Imagens/Startup-context.png">
      </li>
      <li>Criar alguma Classe na model que será uma tabela (Neste projeto foi as Classes Cliente e Passagem)</li>
-     <li>Adicionar ao Contexto do banco de dados `public DbSet<Cliente> Clientes { get; set; }` (Para informar para o banco que aquela classe será uma tabela o nome informado após <Cliente> pode ser qualquer coisa, este nome será o nome da tabela no banco)</li>
+     <li>Adicionar ao Contexto do banco de dados `public DbSet"<"Cliente">" Clientes { get; set; }` (Para informar para o banco que aquela classe será uma tabela o nome informado após <Cliente> pode ser qualquer coisa, este nome será o nome da tabela no banco)</li>
      <li>Gerar o Scaffolding (Gerar os controllers de for automática, os comandos se encontram mais abaixo)</li>
      <li>Agora é sucesso, você já consegue acessar através das rotas</li>
-     <li>Caso queira inserir no cabeçalho acesse [_Layout.cshtml](Views/Shared/_Layout.cshtml) e adicione mais um "li" com as devidas alterações</li>
+     <li>Caso queira inserir no cabeçalho acesse <a href="./Views/Shared/_Layout.cshtml">_Layout.cshtml</a> e adicione mais um "li" com as devidas alterações</li>
     <img src="Imagens/_Layout.png">
   </ol>
 
@@ -40,15 +40,15 @@
 
 
   ## Scaffolding:
-    -> Serve para criar códigos automáticos no vscode, como por exemplo gerar o Controller e as Views a partir de uma classe model e o contexto do Banco de dados. No Visual Studio ele consegue fazer isso com o clique direito do mouse.
+  -> Serve para criar códigos automáticos no vscode, como por exemplo gerar o Controller e as Views a partir de uma classe model e o contexto do Banco de dados. No Visual Studio ele consegue fazer isso com o clique direito do mouse.
 
-    - `dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.0.0` (Versão usada no projeto)
+  - `dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.0.0` (Versão usada no projeto)
 
-    -> Exemplo de geração automática:
-    - `dotnet aspnet-codegenerator controller --force --controllerName ClienteController --model CRUD.Models.Cliente --dataContext CRUD.Models.Context --relativeFolderPath Controllers --controllerNamespace CRUD.Controllers `
-    
-    - `dotnet aspnet-codegenerator controller --force` = Especifica o que vai ser gerado
-    - `--controllerName ClienteController` = Especifica o nome do controller  
-    - `--model CRUD.Models.Cliente` = Especifica qual classe da model ele terá como base, ou seja, quais regras de negócio o controller vai ter.
-    - `--dataContext CRUD.Models.Context` = Define o contexto do banco de dados, onde contém a string de conexão e o tipo de banco. 
-    - `--relativeFolderPath Controllers --controllerNamespace CRUD.Controllers` = Define em qual pasta o controller será criado e qual é o namespace que ele terá 
+  -> Exemplo de geração automática:
+  - `dotnet aspnet-codegenerator controller --force --controllerName ClienteController --model CRUD.Models.Cliente --dataContext CRUD.Models.Context --relativeFolderPath Controllers --controllerNamespace CRUD.Controllers `
+  
+  - `dotnet aspnet-codegenerator controller --force` = Especifica o que vai ser gerado
+  - `--controllerName ClienteController` = Especifica o nome do controller  
+  - `--model CRUD.Models.Cliente` = Especifica qual classe da model ele terá como base, ou seja, quais regras de negócio o controller vai ter.
+  - `--dataContext CRUD.Models.Context` = Define o contexto do banco de dados, onde contém a string de conexão e o tipo de banco. 
+  - `--relativeFolderPath Controllers --controllerNamespace CRUD.Controllers` = Define em qual pasta o controller será criado e qual é o namespace que ele terá 
