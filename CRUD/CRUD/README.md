@@ -4,7 +4,7 @@
 
 # Roteiro:
   <ol>
-    <li>Criar projeto no Visual Studio (Foi o jeito que eu encontrei de conseguir rodar a aplicação em ambas as IDES, se souber de outro manda pra "Nois")</li>
+    <li>Criar projeto no Visual Studio MVC (Foi o jeito que eu encontrei de conseguir rodar a aplicação em ambas as IDES, se souber de outro manda pra "Nois")</li>
     <li>Criar o contexto de banco de dados (Que se encontra no arquivo <a href="./Models/Context.cs">Context.cs</a>)</li>
     <li>Adicionar o contexto do banco na classe "Startup.cs":
       <img src="Imagens/Startup-context.png">
